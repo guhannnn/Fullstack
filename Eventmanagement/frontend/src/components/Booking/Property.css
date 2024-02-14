@@ -1,0 +1,223 @@
+
+#feedback-form {
+  width: 280px;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+  padding: 20px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  font-family: sans-serif;
+}
+
+#feedback-form * {
+    box-sizing: border-box;
+}
+
+#feedback-form h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#feedback-form input {
+  margin-bottom: 15px;
+}
+
+#feedback-form input[type=text] {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+#feedback-form label {
+  color: #777;
+  font-size: 0.8em;
+}
+
+#feedback-form input[type=checkbox] {
+  float: left;
+}
+
+#feedback-form input:not(:checked) + #feedback-phone {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#feedback-form #feedback-phone {
+  transition: .3s;
+}
+
+#feedback-form button[type=submit] {
+  display: block;
+  margin: 20px auto 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  color: #eee;
+  font-weight: 700;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  
+  background: #207cca; /* Old browsers */
+  background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #207cca 0%,#9f58a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 ); /* IE6-9 */
+}
+.containe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .cards {
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  .card figure {
+    margin: 0;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card figcaption {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .icons-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icons-home .name-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons-home .icon {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
+  .icons-home .icon svg {
+    margin-right: 5px;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .price span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .overlay a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+  }
+  
+  .overlay a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .icons-img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icons-img button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .icons-img button:hover {
+    color: #333;
+  }
+  
+  .P-h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .P-h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .P-h3{
+    text-align: center;
+    margin-bottom: 30px;
+  
+  }
+  
+  .P-h4{
+    text-align: center;
+    margin-bottom: 30px;
+  
+  }
