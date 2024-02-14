@@ -1,0 +1,5 @@
+1. validation: jwt token io->
+check if token is present in header
+checking if the user data exists in the token
+checks if the token is valid or not
+2. second level of validation: checks the data
